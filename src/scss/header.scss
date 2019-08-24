@@ -1,0 +1,50 @@
+.headerStyle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 5%;
+
+  .logoStyle {
+    cursor: pointer;
+    height: auto;
+    width: 12%;
+  }
+
+  .barStyleNone {
+    margin-left: 2px;
+    height: 0;
+    width: 15px;
+    border: 1px solid;
+    opacity: 0;
+  }
+
+  .barStyleShow {
+    margin-left: 2px;
+    height: 0;
+    width: 15px;
+    border: 1px solid #e71e29;
+    opacity: 1;
+  }
+
+  .linkStyle {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+
+    &:hover {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+  @media screen and (max-width: 500px) {
+    li {
+      margin: 0;
+      padding: 6px;
+    }
+
+    .logoStyle {
+      width: 35%;
+    }
+  }
+}

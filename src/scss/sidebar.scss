@@ -1,0 +1,36 @@
+.sidebar {
+  position: fixed;
+  top: 20rem;
+}
+
+.sidebar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+
+  &:hover {
+    transition: all 0.3s ease-out;
+    width: 70px;
+  }
+}
+
+.faceBook {
+  background: #3a589b;
+}
+
+.twitter {
+  background: #598dca;
+}
+
+.linkedin {
+  background: #007bb5;
+}
+
+@media screen and (max-width: 500px) {
+  .sidebar-container {
+    height: 40px;
+    width: 40px;
+  }
+}

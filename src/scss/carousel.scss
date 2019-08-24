@@ -1,0 +1,26 @@
+.photoFormat {
+  height: 400px;
+  width: 920px;
+  border-radius: 25px;
+  border: 2.5px solid #e71e29;
+}
+
+.format {
+  height: 400px;
+  width: 920px;
+  border-radius: 25px;
+  margin: 5rem 0 50px 0;
+  box-shadow: 12px 15px 10px lightgrey;
+}
+
+@media screen and (max-width: 500px) {
+  .format {
+    height: 250px;
+    width: 320px;
+  }
+
+  .photoFormat {
+    height: 250px;
+    width: 320px;
+  }
+}
